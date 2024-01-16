@@ -89,31 +89,21 @@ button {
     /* Mobile design */
     .container {
         grid-template-columns: 1fr;
-        width: 100vw;
+    }
+
+    .left-side{
+        margin: 27px;
+    }
+
+    .right-side {
+        display: none;
     }
 
     .logo{
         display: none;
     }
 
-    .left-side {
-        top: 10px;
-        width: 100vw;
-        box-sizing: border-box;
-        padding: 20px;
-    }
-
-    .right-side img {
-        src:url("mobile.jpg");
-        position: absolute;
-        top: 0;
-        width: 100vw;
-        height: 40vh;
-        object-fit: cover;
-    }
-
-    .left-side {
-        height: 60vh;
-        overflow-y: hidden;
+    button {
+        width: 100%;
     }
 }
