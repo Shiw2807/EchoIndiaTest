@@ -13,6 +13,6 @@ function sortArrayAndShowNames() {
 }
 
 function showThankYou() {
-    const yourName = "Shiwanshi"; // Replace with your actual name
+    const yourName = "Shiwanshi";
     window.alert(`Thank you for choosing mobile, ${yourName}!`);
 }
